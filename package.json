@@ -1,0 +1,21 @@
+{
+  "name": "ca2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "matthew hogan",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "vite": "^8.3.8"
+  },
+  "dependencies": {
+    "firebase": "^13.4.0"
+  }
+}
